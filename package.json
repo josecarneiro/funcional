@@ -1,0 +1,18 @@
+{
+  "name": "@twiz/functional",
+  "version": "0.0.1",
+  "description": "Simplify working with Google Cloud Platform functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "José Carneiro",
+  "license": "MIT",
+  "devDependencies": {
+    "@twiz/eslint-config-twiz": "^0.1.6",
+    "chai": "^4.0.2",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.1.1",
+    "mocha": "^3.4.2"
+  }
+}
