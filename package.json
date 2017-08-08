@@ -1,18 +1,29 @@
 {
   "name": "@twiz/functional",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simplify working with Google Cloud Platform functions",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
-  "author": "José Carneiro",
+  "author": {
+    "name": "José Carneiro",
+    "email": "jose@light.pt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twizco/functional.git"
+  },
   "license": "MIT",
   "devDependencies": {
-    "@twiz/eslint-config-twiz": "^0.1.6",
-    "chai": "^4.0.2",
+    "@twiz/eslint-config-twiz": "^0.1.7",
+    "chai": "^4.1.1",
     "dotenv": "^4.0.0",
-    "eslint": "^4.1.1",
-    "mocha": "^3.4.2"
+    "eslint": "^4.4.1",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
   }
 }
