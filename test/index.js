@@ -8,5 +8,6 @@ describe('Library Tests', () => {
   after(done => done());
 
   /* REQUIRE TESTS */
-  require('./functions');
+  require('./client');
+  require('./server');
 });

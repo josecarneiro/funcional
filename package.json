@@ -1,10 +1,10 @@
 {
   "name": "@twiz/functional",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simplify working with Google Cloud Platform functions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha ./test/index.js"
   },
   "author": {
     "name": "José Carneiro",
