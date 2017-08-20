@@ -1,3 +1,23 @@
 # Functional
 
-Since Google Cloud Functions are running on node version 6.x.x, latest technologies such as async await cannot yet be in the library.
+Requires node version `6.x.x`. The compatibility of this library should match the node LTS release schedule, since that is the version used by Google Cloud Functions.
+
+### Client
+
+The client class should be used in response to a `http` trigger.
+
+Initiating it takes two arguments: the `request` and `response` objects passed to the GCP function.
+
+The instance has two methods:
+
+#### json(data[, status])
+
+Stands for a valid response. Responds with a JSON object. Can optionally include a status code (defaults to 200).
+
+#### error(data[, status])
+
+Responds with an error.
+
+### Server
+
+The `Functional` library also includes an interface to interact with GCP functions in the server.

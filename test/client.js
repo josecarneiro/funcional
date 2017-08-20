@@ -10,8 +10,8 @@ describe('Client', () => {
   it('initiate client and send simple response', done => {
     const client = new Client(new Req(), new Res());
     expect(client.version).to.equal(require('./../package.json').version);
-    let data = { url: 'https://google.com' };
-    let status = 202;
+    const data = { url: 'https://google.com' };
+    const status = 202;
     client.json(data, status);
     expect(client.response.sent).to.equal(JSON.stringify(data, null, ''));
     expect(client.response.status).to.equal(status);
