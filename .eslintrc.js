@@ -1,5 +1,5 @@
 module.exports = {
-  extends: "@twiz/eslint-config-twiz",
+  extends: "eslint-config-josecarneiro",
   env: {
     mocha: true
   }

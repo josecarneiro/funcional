@@ -1,6 +1,6 @@
 {
-  "name": "@twiz/functional",
-  "version": "0.0.3",
+  "name": "funcional",
+  "version": "0.1.0",
   "description": "Simplify working with Google Cloud Platform functions",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@twiz/eslint-config-twiz": "^0.1.7",
+    "eslint-config-josecarneiro": "^0.0.2",
     "chai": "^4.1.1",
     "dotenv": "^4.0.0",
     "eslint": "^4.5.0",

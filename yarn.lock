@@ -2,16 +2,6 @@
 # yarn lockfile v1
 
 
-"@twiz/eslint-config-twiz@^0.1.7":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@twiz/eslint-config-twiz/-/eslint-config-twiz-0.1.9.tgz#c8959d8c99b048734359cd9ba6a61b5020c27e41"
-  dependencies:
-    eslint-config-standard "^10.2.1"
-    eslint-plugin-import "^2.3.0"
-    eslint-plugin-node "^5.0.0"
-    eslint-plugin-promise "^3.5.0"
-    eslint-plugin-standard "^3.0.1"
-
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
@@ -352,9 +342,19 @@ escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2, escape-string-regexp@^1
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-standard@^10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-10.2.1.tgz#c061e4d066f379dc17cd562c64e819b4dd454591"
+eslint-config-josecarneiro@^0.1.0:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-josecarneiro/-/eslint-config-josecarneiro-0.0.2.tgz#52b4473946487a8677dcc32e445705d242097058"
+  dependencies:
+    eslint-config-standard "^11.0.0-beta.0"
+    eslint-plugin-import "^2.3.0"
+    eslint-plugin-node "^5.0.0"
+    eslint-plugin-promise "^3.5.0"
+    eslint-plugin-standard "^3.0.1"
+
+eslint-config-standard@^11.0.0-beta.0:
+  version "11.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-11.0.0-beta.0.tgz#f8afe69803d95c685a4b8392b8793188eb03cbb3"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.1"
