@@ -2,3 +2,5 @@
 node_modules
 *.sublime-*
 .package-lock.json
+yarn.lock
+*.log
