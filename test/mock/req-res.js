@@ -8,6 +8,11 @@ const debug = (...args) => {
 class Res {
   constructor () {
     this._status = null;
+    this._headers = {};
+  }
+
+  set (name, value) {
+    this._headers[name] = value;
   }
 
   status (status) {

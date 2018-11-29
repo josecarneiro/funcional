@@ -16,6 +16,9 @@
   "scripts": {
     "test": "mocha ./test/index.js"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "dependencies": {
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
