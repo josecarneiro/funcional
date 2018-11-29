@@ -1,6 +1,6 @@
-# Funcional
+# `funcional`
 
-Requires node version `6.x.x`. The compatibility of this library should match the node LTS release schedule, since that is the version used by Google Cloud Functions.
+Requires node version `8.x.x`. The compatibility of this library should match the node LTS release schedule, since that is the version used by Google Cloud Functions.
 
 ### Client
 
@@ -20,7 +20,7 @@ Responds with an error.
 
 ### Server
 
-The `Functional` library also includes an interface to interact with GCP functions in the server.
+The `funcional` library also includes an interface to interact with GCP functions in the server.
 
 ### TO DO:
 

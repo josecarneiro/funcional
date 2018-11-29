@@ -1,4 +1,6 @@
 .DS_Store
 node_modules
-*.sublime-*
 .package-lock.json
+.git
+test
+*.spec.*
