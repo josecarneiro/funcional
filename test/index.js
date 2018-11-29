@@ -2,12 +2,8 @@
 
 require('dotenv').config({ path: './test.env' });
 
-describe('Library Tests', () => {
-  /* BEFORE AND AFTER TEST HOOKS */
-  before(done => done());
-  after(done => done());
-
+describe('funcional library Tests', () => {
   /* REQUIRE TESTS */
-  require('./client');
-  require('./server');
+  const specs = [ 'client', 'server' ];
+  for (let spec of specs) require(`./../lib/${ spec }.spec.js`);
 });
